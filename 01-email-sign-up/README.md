@@ -12,9 +12,9 @@ Vanilla - HTML, CSS, Javascript
 
 - Centering in CSS: used 'position: absolute' and 'transform'.
 
-- CSS Architecture: used a combination of SMACSS and SUITCSS. CSS file sectioning: base, layout, component, utility. CSS selector naming: u-utilityName, componentName[--modifierName|-descendantName]. 
+- CSS Architecture: used a combination of SMACSS and SUITCSS. CSS file sectioning: base, layout, component, utility. CSS selector naming: u-utilityName, componentName[--modifierName|-descendantName].
 
-(Using this architecture seems overkill for this "one-component" UI pattern as the css selectors became verbose.)
+  (Using this architecture seems overkill for this "one-component" UI pattern as the css selectors became verbose.)
 
 ## Look Into Next
 
