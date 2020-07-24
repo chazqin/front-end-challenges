@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Front-end Challenges - Email Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="signup u-absoluteCenter">
+
+    <h1 class="signup-header">Sign up for the latest updates</h1>
+
+    <form class="signup-body" action="/" novalidate>
+
+      <label class="signup-body-label u-block u-uppercase" for="email">Email Address</label>
+
+      <div class="signup-body-inputControl">
+        <!-- beautify ignore:start -->
+        <input class="signup-body-inputControl-field u-valignTop" type="email" id="email" name="email" required><!--
+          
+        --><button class="signup-body-inputControl-button u-valignTop"></button>
+        <!-- beautify ignore:end -->
+      </div>
+
+    </form>
+
+    <div class="signup-message signup-message--confirm u-disappear">
+      <h6>Yay! Thank you</h6>
+      <p>We've sent a confirmation link to your inbox.</p>
+    </div>
+
+    <div class="signup-message signup-message--error u-disappear">
+      <h6>Please use a valid email</h6>
+      <p>Like: person@inbox.com</p>
+    </div>
+
+  </main>
+
+  <script src=index.js></script>
+</body>
+
+</html>
